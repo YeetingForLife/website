@@ -1,0 +1,1 @@
+import{g as n,_ as t}from"./storage.js";document.addEventListener("DOMContentLoaded",()=>a());async function a(){let e=document.getElementById("newTab");e.checked=await n("newTab"),e.addEventListener("change",()=>{t.storage.local.set({newTab:e.checked})})}
